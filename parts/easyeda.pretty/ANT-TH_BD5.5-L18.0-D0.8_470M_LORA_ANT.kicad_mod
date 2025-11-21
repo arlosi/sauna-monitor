@@ -1,0 +1,186 @@
+(footprint "ANT-TH_BD5.5-L18.0-D0.8_470M_LORA_ANT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "9b744f72-67dc-48c8-95b1-b9fcc2adf1f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT-TH_BD5.5-L18.0-D0.8_470M_LORA_ANT"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "a05aca77-0ad3-495d-8bca-28056eec011d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e9adfc8-97c1-4148-bd54-615ebe9d19e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7764ee42-a958-44be-b28e-b554475e0b7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.75 5.17)
+		(end -2.75 17.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "092c6183-1c42-4cb7-860c-3c8a7ace78e5")
+	)
+	(fp_line
+		(start -2.75 5.17)
+		(end 2.75 5.17)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad330a06-89fc-4d12-bcc5-eb9c9f3c37ac")
+	)
+	(fp_line
+		(start -0.38 2)
+		(end -0.38 1.43)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58de58ce-8f96-48c7-9ecc-b72def76b6c5")
+	)
+	(fp_line
+		(start -0.38 2)
+		(end -0.38 5.17)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8994b51-7539-40b1-a833-ad427f67237a")
+	)
+	(fp_line
+		(start 0.38 2)
+		(end 0.38 1.43)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74337d25-db54-4554-a1a3-acfce462a5a4")
+	)
+	(fp_line
+		(start 0.38 2)
+		(end 0.38 5.17)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a0be2d6-200d-482c-b0e6-73cb6d764391")
+	)
+	(fp_line
+		(start 2.75 5.17)
+		(end 2.75 17.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cba4b6c8-3fa6-4247-9d92-ec90b8702496")
+	)
+	(fp_line
+		(start 2.75 17.6)
+		(end -2.75 17.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70b0e605-73d3-47a2-a291-bf0280b3ad68")
+	)
+	(fp_circle
+		(center 0 0.6)
+		(end 0.2 0.6)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "08312210-a07b-4eeb-8f89-c916a6660794")
+	)
+	(fp_circle
+		(center 2.75 17.6)
+		(end 2.78 17.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ef0a8428-0cf5-4c63-94ed-dbfe1635deb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bb7804f2-fae4-43af-8ee8-34326c21e400")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 270)
+		(size 2.5 2.5)
+		(drill 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "320630de-b9be-4552-bc6e-8751cdfd6290")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/arlo/Desktop/sauna3/parts/easyeda.3dshapes/ANT-TH_BD5.5-L18.0-D0.8_470M_LORA_ANT.wrl"
+		(offset
+			(xyz 0 -17.05 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

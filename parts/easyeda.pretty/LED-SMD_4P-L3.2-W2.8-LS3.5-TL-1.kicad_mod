@@ -1,0 +1,232 @@
+(footprint "LED-SMD_4P-L3.2-W2.8-LS3.5-TL-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.75 0)
+		(layer "F.SilkS")
+		(uuid "09a785c8-371f-4950-8840-9f679e523953")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L3.2-W2.8-LS3.5-TL-1"
+		(at 0 4.75 0)
+		(layer "F.Fab")
+		(uuid "ca7124e5-0596-4dc9-8515-39318413eb67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73d3ae25-9ba8-4dcf-a5fa-17e7df3fbf98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33dfcfca-89fd-4c43-8337-c83d193b831b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "110fc526-0f7f-47c7-a44f-85540a93ec5f")
+	)
+	(fp_line
+		(start -1.6 -1.33)
+		(end -1.6 -1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4afbad0-8c1e-4aa1-9ef9-df3dd8d46edc")
+	)
+	(fp_line
+		(start -1.6 0.17)
+		(end -1.6 -0.17)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b64d0979-9a58-406e-a2ee-1cacd478aa3d")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end -1.6 1.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35c62d68-0474-4b49-a730-93b0d6aaba1a")
+	)
+	(fp_line
+		(start 1.53 2.03)
+		(end 2.16 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f7fc9b1-1375-47b3-9173-fdfba64fa723")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end 1.6 -1.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "153c95d0-039a-4ac2-acd1-0454f091de80")
+	)
+	(fp_line
+		(start 1.6 -0.17)
+		(end 1.6 0.17)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95618fc6-aadf-47ed-bd2a-816b6c3fe165")
+	)
+	(fp_line
+		(start 1.6 1.33)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fd46637-d282-43fa-9bbe-433ecfc0f02e")
+	)
+	(fp_line
+		(start 1.6 1.4)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd3ac78f-d52c-45ab-8c88-07205186b0c8")
+	)
+	(fp_line
+		(start 2.16 1.4)
+		(end 2.16 2.03)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20069a41-b3f2-4474-b652-61cdcae0f03a")
+	)
+	(fp_line
+		(start 2.16 2.03)
+		(end 1.53 2.03)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "041200bf-18d7-4646-b62f-05058894b281")
+	)
+	(fp_circle
+		(center 0.02 0)
+		(end 0.71 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "228194f9-54fc-4441-9a4d-12beddb33731")
+	)
+	(fp_circle
+		(center -1.75 -1.4)
+		(end -1.72 -1.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "25584afc-a3b1-4491-87e5-e239f735724c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "06671665-5606-43c5-9524-846cf978c482")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 -0.75 90)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a91b3965-3a23-4a60-9212-37f1a73d2ebd")
+	)
+	(pad "2" smd rect
+		(at -1.5 0.75 90)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eccdb919-76e8-4dd5-b53e-919968855042")
+	)
+	(pad "3" smd rect
+		(at 1.5 -0.75 90)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61c4f9cd-c477-4223-84b8-2c579560e06a")
+	)
+	(pad "4" smd rect
+		(at 1.5 0.75 90)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a2ca0931-a676-4853-908a-b51fd61d9c48")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/arlo/Desktop/sauna3/parts/easyeda.3dshapes/LED-SMD_4P-L3.2-W2.8-LS3.5-TL-1.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

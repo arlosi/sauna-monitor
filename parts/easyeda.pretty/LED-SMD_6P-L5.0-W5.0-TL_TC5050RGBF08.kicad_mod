@@ -1,0 +1,234 @@
+(footprint "LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "5b64d3dc-a59b-476c-bec4-1e2ef5ad0f57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08"
+		(at 0 5.5 0)
+		(layer "F.Fab")
+		(uuid "cf58757c-322f-44b1-88b2-671e36f4227e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e7eef30-0a1a-48be-b9c3-1386e8e5faae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8407e105-a1a2-4a41-bc9e-3111f7f76ede")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.58 -2.58)
+		(end -2.58 -2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1d05d36-8f32-4bd2-bf4d-d4afb0c2c063")
+	)
+	(fp_line
+		(start -2.58 -2.58)
+		(end -2.58 -2.11)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9f5bac7-55b1-4d10-90d8-8aa2cc533171")
+	)
+	(fp_line
+		(start -2.58 2.58)
+		(end -2.58 2.11)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c63684e-ed5b-4b23-8a15-4979f7ae5026")
+	)
+	(fp_line
+		(start -2.58 2.58)
+		(end -2.58 2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7973e96-e126-4d90-8ea8-34bab71c172f")
+	)
+	(fp_line
+		(start 2.58 -2.58)
+		(end -2.58 -2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59387ea5-c90c-4cfd-aece-b2e133a2e226")
+	)
+	(fp_line
+		(start 2.58 -2.58)
+		(end 2.58 -2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41c7072d-6d62-47fe-a92e-aa4f6a85261b")
+	)
+	(fp_line
+		(start 2.58 -2.11)
+		(end 2.58 -2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac612e3c-a577-42ad-b0d5-e66f7fda049a")
+	)
+	(fp_line
+		(start 2.58 2.11)
+		(end 2.58 2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a5adb87-b306-40da-88f6-1730c62ecae7")
+	)
+	(fp_line
+		(start 2.58 2.58)
+		(end -2.58 2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15d5c2f1-99a9-4995-a364-aa06fde53dc6")
+	)
+	(fp_line
+		(start 2.58 2.58)
+		(end 2.58 2.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec628a87-b4a5-4dea-a382-fb1af87f263c")
+	)
+	(fp_circle
+		(center -3.68 -1.65)
+		(end -3.56 -1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e0f43785-ac8b-4da9-baa8-0a68af6a7429")
+	)
+	(fp_circle
+		(center -2.47 -2.47)
+		(end -2.44 -2.47)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ef92babd-6e66-434d-997e-821d1de9bbeb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "71bd2d15-dd39-4ccb-8fe1-e32a91beb126")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.21 -1.5)
+		(size 2.26 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c11e54a-61a9-40de-84b8-2c9154be74a2")
+	)
+	(pad "2" smd rect
+		(at -2.21 0)
+		(size 2.26 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "027cf7a0-2127-497f-a1e7-1caafe8f8afd")
+	)
+	(pad "3" smd rect
+		(at -2.21 1.5)
+		(size 2.26 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84cdd79a-2852-4a48-8fbf-3bec92410426")
+	)
+	(pad "4" smd rect
+		(at 2.21 1.5)
+		(size 2.26 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "017ea9bc-14e6-42b8-8d37-df967dffec2f")
+	)
+	(pad "5" smd rect
+		(at 2.21 0)
+		(size 2.26 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c906ef1-9713-46db-aead-07e753e29a0e")
+	)
+	(pad "6" smd rect
+		(at 2.21 -1.5)
+		(size 2.26 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30b712c3-5565-4019-a1ab-e767cbb67b2c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/arlo/Desktop/sauna3/parts/easyeda.3dshapes/LED-SMD_6P-L5.0-W5.0-TL_TC5050RGBF08.wrl"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

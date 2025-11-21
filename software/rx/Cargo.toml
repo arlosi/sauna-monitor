@@ -1,0 +1,24 @@
+[package]
+name = "rx"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+embassy-executor = { version = "0.7.0", features = ["task-arena-size-20480"] }
+embassy-time = "0.4.0"
+esp-backtrace = { version = "0.17", features = [
+    "panic-handler",
+    "println",
+    "esp32c6",
+] }
+esp-bootloader-esp-idf = { version = "0.2", features = ["esp32c6"] }
+esp-hal = { version = "1.0.0-rc.0", features = ["esp32c6", "unstable"] }
+esp-hal-embassy = { version = "0.9", features = ["esp32c6"] }
+esp-println = { version = "0.15", features = ["log-04"] }
+
+[profile.dev]
+debug            = true
+debug-assertions = true
+lto              = "fat"
+codegen-units    = 1
+opt-level = "s"
